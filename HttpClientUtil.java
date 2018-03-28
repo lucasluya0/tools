@@ -22,9 +22,9 @@ import org.apache.http.util.EntityUtils;
 /*
  * 利用HttpClient进行post请求的工media paly具类
  */
-public class HttpClientUtil {//http://192.168.89.141:8080/myMongo3/apiAssociationAction_queryAllEnterprise.do?associationId=%E5%8D%8F%E4%BC%9Aid&enterpriseId=%E4%BC%81%E4%B8%9Aid&enterpriseName=%E4%BC%81%E4%B8%9A%E5%90%8D%E7%A7%B0
+public class HttpClientUtil {
 	public static void main(String[] args) {
-		String httpOrgCreateTest = "http://192.168.89.141:8014/myMongo3/apiAssociationAction_queryAllEnterprise.do";  
+		String httpOrgCreateTest = "http://www.baidu.com;  
 		String per = "associationId=协会id&enterpriseId=企业id&enterpriseName=企业名称";
         Map<String,String> createMap = new HashMap<String,String>();  
         createMap.put("enterpriseId","****1111***");  
