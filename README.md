@@ -1,1 +1,1 @@
-this is java tools
+this is java tools is used to send https or http
